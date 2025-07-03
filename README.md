@@ -1,6 +1,6 @@
 Piecewise Taylor Regression fits multiple local Taylor polynomials to data for flexible, accurate modeling of nonlinear functions.
 
-![Visualization of Piecewise Taylor Regression](visualization.png)
+![Visualization of Piecewise Taylor Regression](Visualization.png)
 
 
 # Piecewise Taylor Regression
