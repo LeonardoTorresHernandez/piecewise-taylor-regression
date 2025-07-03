@@ -1,3 +1,8 @@
+Piecewise Taylor Regression fits multiple local Taylor polynomials to data for flexible, accurate modeling of nonlinear functions.
+
+![Visualization of Piecewise Taylor Regression](visualization.png)
+*Replace 'visualization.png' with your actual image file to showcase why this method is useful.*
+
 # Piecewise Taylor Regression
 
 Piecewise Taylor Regression is a Python package for fitting Taylor polynomial regressions to data, with the option to fit multiple Taylor polynomials at specified points (knots) for piecewise approximation. This approach allows for flexible, local polynomial modeling of complex, nonlinear data.
@@ -9,6 +14,14 @@ Taylor Regression fits a polynomial (Taylor series) to data around a specified c
 ## What is Piecewise Taylor Regression?
 
 Piecewise Taylor Regression divides the input domain into segments, and fits a separate Taylor polynomial to each segment, centered at user-specified knots. This allows for accurate, flexible modeling of functions that change behavior in different regions, by combining several local Taylor approximations.
+
+---
+
+## Core Concept
+
+**Taylor Regression** fits a polynomial (Taylor series) to data around a specified center point, approximating a function as a sum of powers of \((x-c)^n\), where \(c\) is the center. This is useful for locally approximating nonlinear functions with polynomials whose coefficients are determined by least squares regression.
+
+**Piecewise Taylor Regression** divides the input domain into segments and fits a separate Taylor polynomial to each segment, centered at user-specified knots. This enables accurate, flexible modeling of functions that change behavior in different regions by combining several local Taylor approximations.
 
 ---
 
@@ -34,6 +47,16 @@ pip install numpy scipy scikit-learn matplotlib
 ---
 
 ## Quick Start
+
+### Installation
+
+Install the package and its dependencies:
+
+```bash
+pip install .
+```
+
+---
 
 ### TaylorRegression: Fit a single Taylor polynomial
 
