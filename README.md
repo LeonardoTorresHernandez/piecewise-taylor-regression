@@ -18,7 +18,7 @@ Clone the repository and install in editable mode (recommended for development):
 
 ```bash
 # Clone the repository
- git clone <repo-url>
+ git clone https://github.com/LeonardoTorresHernandez/piecewise-taylor-regression.git
  cd PiecewiseTaylorRegression
 
 # Install dependencies and the package in editable mode
